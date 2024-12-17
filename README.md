@@ -4,6 +4,8 @@ MCP Server is a versatile tool designed for interactive data exploration.
 
 Your personal Data Scientist assistant, turning complex datasets into clear, actionable insights.
 
+<a href="https://glama.ai/mcp/servers/hwm8j9c422"><img width="380" height="200" src="https://glama.ai/mcp/servers/hwm8j9c422/badge" alt="mcp-server-data-exploration MCP server" /></a>
+
 ## 🚀 Try it Out
 
 1. **Download Claude Desktop**
