@@ -15,7 +15,8 @@ from mcp.types import (
     GetPromptResult,
     PromptMessage,
 )
-from mcp.server import NotificationOptions, Server, McpError
+from mcp.server.lowlevel import NotificationOptions, Server
+from mcp.shared.exceptions import McpError
 from pydantic import AnyUrl
 import mcp.server.stdio
 from pydantic import BaseModel
