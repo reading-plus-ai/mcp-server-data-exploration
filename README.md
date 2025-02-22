@@ -6,25 +6,28 @@ Your personal Data Scientist assistant, turning complex datasets into clear, act
 
 <a href="https://glama.ai/mcp/servers/hwm8j9c422"><img width="380" height="200" src="https://glama.ai/mcp/servers/hwm8j9c422/badge" alt="mcp-server-data-exploration MCP server" /></a>
 
-## 🚀 Try it Out
+## Prerequisites
 
-1. **Download Claude Desktop**
-   - Get it [here](https://claude.ai/download)
+- [uv](https://docs.astral.sh/uv/)
+- Any MCP clients. There are many available, check out [@punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/?tab=readme-ov-file)
 
-2. **Install and Set Up**
-   - On macOS, run the following command in your terminal:
-   ```bash
-   python setup.py
-   ```
+## Configuration
 
-3. **Load Templates and Tools**
-   - Once the server is running, wait for the prompt template and tools to load in Claude Desktop.
+```json
+{
+  "mcpServers": {
+    "data-explore": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/scottoasis/mcp-server-data-exploration",
+        "mcp-server-ds"
+      ]
+    }
+  }
+}
+```
 
-4. **Start Exploring**
-   - Select the explore-data prompt template from MCP
-   - Begin your conversation by providing the required inputs:
-     - `csv_path`: Local path to the CSV file
-     - `topic`: The topic of exploration (e.g., "Weather patterns in New York" or "Housing prices in California")
 
 ## Examples
 
